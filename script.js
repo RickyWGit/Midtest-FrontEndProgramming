@@ -1,3 +1,21 @@
+// Index.html Like, Bookmark
+document.addEventListener('DOMContentLoaded', () => {
+    const loveIcons = document.querySelectorAll('.uil-heart');
+    loveIcons.forEach(icon => {
+        icon.addEventListener('click', function() {
+            this.classList.toggle('menyukai');
+        });
+    });
+
+    const bookmarkIcons = document.querySelectorAll('.uil-bookmark');
+    bookmarkIcons.forEach(icon => {
+        icon.addEventListener('click', function() {
+            this.classList.toggle('tersimpan');
+        });
+    });
+});
+
+
 // Friendreq.html acc dec friend
 document.addEventListener('DOMContentLoaded', () => {
     const acceptButtons = document.querySelectorAll('.acc-btn');
