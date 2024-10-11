@@ -29,7 +29,6 @@ main .container {
     letter-spacing: 5px;
     text-shadow: 2px 4px 10px rgba(153, 196, 34, 0.1);
     animation: glow 1.5s ease-in-out infinite alternate;
-    margin: 20px 0;
     padding: 20px;
 }
 
@@ -847,4 +846,45 @@ header {
     .contacts {
         flex-direction: column;
     }
+}
+
+/* footer.html */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #1e90ff;
+}
+
+.f-btn i {
+    margin-right: 1px;
 }
